@@ -1,0 +1,54 @@
+!*font: xft:Fantasque Sans Mono:style=Regular:size=12
+*font: xft:Hack:style=Regular:size=10,xft:Symbola
+!*font: xft:Inconsolata for Powerline:medium:size=14
+!*.font: xft:Inconsolata for Powerline:pixelsize=15:antialias=true:hinting=true
+!-*- Perl extensions -*-
+*.perl-ext-common: default,selection-to-clipboard,pasta,matcher,keyboard-select
+*.keysym.M-u:     perl:url-select:select_next
+*.url-launcher:   /usr/local/bin/firefox-nightly
+*.underlineURLs:  True
+*.matcher.button: 1 
+*.keysym.M-Escape:perl:keyboard-select:activate
+*.keysym.Control-Shift-V:     perl:pasta:paste
+*.scrollBar: off
+*.internalBorder: 10px
+
+! hard contrast: *background: #1d2021
+*background: #151515
+! soft contrast: *background: #32302f
+*foreground: #d7d0c7
+!black
+!old black #2E1F1F
+*color0: #151515
+*color8: #422D2D
+!red
+*color1: #AA0E50
+*color9: #BE0E50
+!green
+*color2: #1DCC9F
+*color10: #1FD9A9
+!yellow
+*color3: #27C282
+*color11: #2CDB93
+!blue
+*color4: #7182A8
+*color12: #8194BF
+!magenta
+*color5: #A673A6
+*color13: #7F5AA1
+!cyan
+*color6: #6DA3A1
+*color14: #669997
+!white
+*color7: #B7BBBD
+*color15: #d7d0c7
+
+!rofi
+! Enable the extended coloring options
+rofi.color-enabled: true
+!                  bg       border   separator
+rofi.color-window: #32302f, #a89984, #a89984
+!                  bg       fg       bg-alt   hl-bg    hl-fg
+rofi.color-normal: #32302f, #ebdbb2, #3c3836, #665c54, #fbf1c7
+rofi.color-active: #d79921, #32302f, #d79921, #fabd2f, #32302f
+rofi.color-urgent: #cc241d, #32302f, #cc241d, #fb4934, #32302f
